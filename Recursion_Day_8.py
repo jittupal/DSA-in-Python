@@ -34,3 +34,19 @@ if ans == n:
     print("palindrome")
 else:
     print("Not Palindrome")
+
+def sumof(list_tab, i, j, total):
+    if i >= j:
+        return total
+    total = total + list_tab[i]
+    i = i + 1
+    return sumof(list_tab, i, j, total)
+
+list_tab = [1, 2, 3, 4 , 5, 9]
+
+total = 0
+i = 0
+j = len(list_tab)
+
+ans = sumof(list_tab, i, j, total)
+print(f"Sum of total numbers of list:  {ans}")
