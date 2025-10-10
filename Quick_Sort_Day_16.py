@@ -29,6 +29,7 @@ def partition(arr, low, high):
     return j
 
 
+
 def quick_sort(arr, low, high):
     # Base condition: only sort if low < high
     if low < high:
