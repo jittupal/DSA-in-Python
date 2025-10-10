@@ -6,8 +6,6 @@ def sum_of_digit(num, total):
     total = total + last
     return sum_of_digit(num // 10, total)
 
-
-
 num = 3656
 total = 0
 
