@@ -29,7 +29,7 @@ print(f"Missing number from array is : {ans}")
 
 
 # ------------------------------------------
-# ⚡ Very Optimized Approach (Mathematical Formula)
+# Very Optimized Approach (Mathematical Formula)
 # ------------------------------------------
 
 # Example 2
