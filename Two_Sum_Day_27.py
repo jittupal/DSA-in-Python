@@ -15,8 +15,6 @@ def two_sum(arr, target):
         # This helps us quickly check for future elements
         hash_map[arr[i]] = i
 
-
-
 # Example usage
 arr = [1, 3, 5, 7, 9, 4]
 target = 14
