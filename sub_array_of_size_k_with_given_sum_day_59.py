@@ -14,3 +14,24 @@ for i in range(k, len(arr)):
         b = True
     
 print(b)
+
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+k = 4
+sums = 10
+ans = []
+b = False
+for i in range(0, k):
+    ans.append(arr[i])
+    
+for i in range(k, len(arr)):
+    if sum(ans) == sums:
+        b = True
+        break
+    
+    ans.pop(0)
+    ans.append(arr[i])
+    
+if b:
+    print(ans)
+else:
+    print(b)
