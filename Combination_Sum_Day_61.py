@@ -26,3 +26,4 @@ total = 0
 solve(arr, target, subset, total, index, result)
 
 print(result)
+
