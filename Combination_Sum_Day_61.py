@@ -1,3 +1,5 @@
+
+
 def solve(arr, target, subset, total, index, result):
     if total == target:
         result.append(subset.copy())
@@ -26,4 +28,3 @@ total = 0
 solve(arr, target, subset, total, index, result)
 
 print(result)
-
