@@ -14,5 +14,3 @@ total = 0
 result = []
 solve(index, arr, total, result)
 print(result)
-
-    
