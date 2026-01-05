@@ -35,3 +35,4 @@ s.top()
 s.pop()
 s.pop()
 s.getMin()
+
