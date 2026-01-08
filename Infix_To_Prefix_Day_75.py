@@ -44,4 +44,4 @@ class Solution:
 
 
 S = Solution()
-print(S.infixToPrefix("a*b+c/d"))
+print(S.infixToPrefix("a*b+c/d+"))
