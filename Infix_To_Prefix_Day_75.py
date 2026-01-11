@@ -41,6 +41,8 @@ class Solution:
             result.append(stack.pop())
         
         return "".join(result[::-1])
+    
+    
 
 S = Solution()
 print(S.infixToPrefix("a*b+c/d+"))
