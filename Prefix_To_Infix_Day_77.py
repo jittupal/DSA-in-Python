@@ -11,12 +11,9 @@ def PrefixToInfix(s):
             
             new_expression = f"({operand2}{char}{operand1})"
             
-            # new_expression = new_expression[::-1]
-            
             stack.append(new_expression)
             
     return stack[-1]
-
 
 s = "*+AB-CD"
 
