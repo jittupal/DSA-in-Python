@@ -18,4 +18,5 @@ def PrefixToPostfix(s):
 s = "*+AB-CD"
 
 ans = PrefixToPostfix(s)
+
 print(ans)
