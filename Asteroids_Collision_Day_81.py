@@ -14,10 +14,10 @@ class Solution:
                     st.append(asteroids[i])
         return st
     
-    
-    
 arr = [2, 3, 5, 3, -4, 6]
 
 s = Solution()
+
 ans = s.asteroidCollision(arr)
+
 print(ans)
