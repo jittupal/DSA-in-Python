@@ -16,6 +16,7 @@ class Solution:
         
         return maxi
          
+
 s = Solution()
 ans = s.lengthOfLongestSubstring("abcashxycswk")
 print(ans)
